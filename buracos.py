@@ -30,3 +30,15 @@ for i in range(T): # range == intervalo [0, T[
     palavra = input()
     buracos = contar_buracos(palavra)
     print(buracos)
+
+
+
+    
+while n <= m:
+    if m % 2 != 0:
+        print(m)
+        break
+    if n != 0:
+        continue
+    m = m - 1
+            
