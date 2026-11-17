@@ -1,5 +1,5 @@
 
-# Preencher o dicionário de voos
+# 1 parte - Preencher o dicionário de voos
 voos = {}
 
 for i in range(37):
@@ -10,7 +10,7 @@ for i in range(37):
 
     voos[voo] = vagas
 
-# Marcar os voos, quando disponível
+# 2 parte - Marcar os voos, quando disponível, atualizando  
 def fazer_reserva(rg, voo):
     if voo in voos:
         if voos[voo] > 0:
